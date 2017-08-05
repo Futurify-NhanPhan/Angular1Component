@@ -3,7 +3,10 @@
     angular.module('about', []) 
         .component('aboutComponent', {
             templateUrl: '/ClientApp/about-component.html',
-            bindings: { $router: '<' },
+            bindings: {
+                $router: '<',
+                message: '='
+            },
             controller: ['$rootScope', '$scope', '$http', function ($rootScope, $scope, $http) {
                 var $ctrl = this;
                 $ctrl.aboutMessage = 'This is angular 1 component site';
