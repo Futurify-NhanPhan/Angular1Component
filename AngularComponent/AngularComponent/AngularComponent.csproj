@@ -151,6 +151,8 @@
     <Content Include="ClientApp\app.html" />
     <Content Include="ClientApp\another-component.html" />
     <Content Include="ClientApp\another-component.js" />
+    <Content Include="ClientApp\about-component.html" />
+    <Content Include="ClientApp\about-component.js" />
     <Content Include="ClientApp\test-component.html" />
     <Content Include="ClientApp\test-component.js" />
     <Content Include="ClientApp\app.js" />

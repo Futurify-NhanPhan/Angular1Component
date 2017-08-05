@@ -1,6 +1,6 @@
 ﻿(function (angular) {
     'use strict';
-    angular.module('app', ['ngComponentRouter', 'test', 'another'])
+    angular.module('app', ['ngComponentRouter', 'test', 'another','about'])
 
     .config(function ($locationProvider) {
       //  $locationProvider.html5Mode(true);
