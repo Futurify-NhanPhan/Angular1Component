@@ -3,7 +3,7 @@
     angular.module('app', ['ngComponentRouter', 'test'])
 
     .config(function ($locationProvider) {
-        $locationProvider.html5Mode(true);
+      //  $locationProvider.html5Mode(true);
     })
 
     .value('$routerRootComponent', 'app')

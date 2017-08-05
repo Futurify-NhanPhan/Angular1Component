@@ -2,8 +2,7 @@
     'use strict';
     angular.module('test', []) 
         .component('testComponent', {
-            template:
-              '<h2>{{$ctrl.textMessage}}</h2>',
+            templateUrl: '/ClientApp/test-component.html',
             bindings: { $router: '<' },
             controller: ['$rootScope', '$scope', '$http', function ($rootScope, $scope, $http) {
                 var $ctrl = this;

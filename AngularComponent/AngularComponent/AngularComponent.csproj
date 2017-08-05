@@ -148,6 +148,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClientApp\test-component.html" />
     <Content Include="ClientApp\test-component.js" />
     <Content Include="ClientApp\app.js" />
     <Content Include="Content\bootstrap.css" />
