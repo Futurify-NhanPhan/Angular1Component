@@ -9,7 +9,7 @@
             },
             controller: ['$rootScope', '$scope', '$http', function ($rootScope, $scope, $http) {
                 var $ctrl = this;
-                $ctrl.aboutMessage = 'This is angular 1 component site';
+                $ctrl.aboutMessage = 'This is about component';
             }]
         });   
     
